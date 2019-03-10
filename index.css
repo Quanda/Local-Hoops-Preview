@@ -139,10 +139,13 @@ p {
 }
 
 .app-icon {
-	width: 90px;
 	margin: 0 auto;
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 	-webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+}
+
+.app-icon img {
+	border-radius: 15px;
 }
 
 .app-icon p {
@@ -154,6 +157,7 @@ p {
 @media only screen and (min-width: 767px) {
 	.app-icon {
 		margin: 0;
+		max-width: 200px;
 	}
 
 	.app-icon p {
@@ -193,7 +197,6 @@ p {
 .iphone {
 	position: relative;
 	max-width: 300px;
-	height: 300px;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
