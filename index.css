@@ -171,6 +171,7 @@ p {
 	margin-right: auto;
 	margin-bottom: 40px;
 	margin-left: auto;
+	text-align: left;
 }
 
 @media only screen and (min-width: 767px) {
